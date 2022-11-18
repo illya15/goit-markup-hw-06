@@ -607,7 +607,7 @@ color: rgba(255, 255, 255, 0.6);
 
 /* приєднатися */
   .addition {
-     margin-right: 640px; 
+     /* margin-right: 640px;  */
   }
 .add {
      /* margin-right: 868px;  */
@@ -644,6 +644,27 @@ color: #FFFFFF
     fill: #FFFFFF;
 }
 
+
+/* підпишіться на розсилку */
+
+.sing {
+    display: flex;
+    
+
+   }
+   .input-sing{
+    width: 360px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+   }
+
+   .to-sing {
+    margin-top: 45px;
+margin-right: px;
+margin-left: 12px;
+   }
 
 /* ПОРТФОЛІО */
 
