@@ -446,7 +446,7 @@ color:var(--primery-text-color);
 border-bottom: 2px solid  #F5F4FA;;
     }
 
-   .members .icon-members {
+   .members .s {
     display: flex;
 justify-content: center;
 align-items: center;
@@ -904,17 +904,7 @@ color: #757575;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
   }
-  .user-agree{
-    
-    margin-top: 21px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.71px;
-letter-spacing: 0.03em;
-color: #757575;
-  }
+ 
   .conditions{
     font-weight: 400;
 font-size: 14px;
@@ -927,8 +917,8 @@ color: #2196F3;
     display: block;
     width: 200px;
     height: 50px;
-    margin-top: 30px;
-    margin-bottom: 36px;
+    margin-top: 25px;
+    margin-bottom:0 px;
     margin-left: 160px;
     margin-right: 160px;
   }
@@ -943,7 +933,7 @@ color: #2196F3;
     display: inline-block;
   }
   
- .modal-input:focus ~ .icon-modal{
+ .modal-input:focus + .icon-modal{
     fill: var(--accent-color);
 }
 
@@ -959,4 +949,35 @@ color: #2196F3;
 
 .close:hover {
     fill: var(--accent-color);
+}
+.check-input{
+   margin: 10px;
+}
+.user-agree{
+    display: flex;
+    align-items: center;
+       margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+.user-agree::before {
+    content: "";
+    margin-right: 8px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+}
+.check-input input:checked + .user-agree::before{
+    background-color: #2196F3;
+    border: none;
+    background-image: url(/imges/Galka\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }

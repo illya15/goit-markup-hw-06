@@ -367,13 +367,17 @@
                      <textarea name="coments" rows="7" class="user-coment-area" 
                      placeholder="Введіть текст"></textarea>
                     </label>
-                    
-                    <label class="user-agree">
-                        <input type="checkbox" name="agree" value="on" checked />
-                        Погоджуюся з розсилкою та приймаю <a href="" class="conditions">Умови договору</a>                   
-    
-                      </label>
-                  
+
+
+                         <div class="check-input"   >        
+                        <input id="agree"
+                         type="checkbox"
+                         name="agree" value="agree"  class="visually-hidden" />
+                                           
+                        <label for="agree" class="user-agree"> Погоджуюся з розсилкою та приймаю 
+                            <a href="" class="conditions">Умови договору</a> 
+                          </label>
+                    </div> 
 
                     <button type="submit" class="button send" >Відправити</button> 
                 </form>
