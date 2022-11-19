@@ -658,12 +658,38 @@ color: #FFFFFF
     background-color: #2F303A;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+   padding: 0;
+   padding-left: 15px;
+   outline-style: none;
+   
+  
    }
 
-   .to-sing {
-    margin-top: 45px;
-margin-right: px;
+ .to-sing {
+    position: relative;
+    display: inline-block;
+    margin-top: 43px;
 margin-left: 12px;
+margin-bottom: 47px;
+padding-left: 20px;
+padding-right: 62px;
+
+
+font-weight: 700;
+font-size: 16px;
+line-height:1.87;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+
+}
+
+
+   .icon-send{
+    position: absolute;
+    margin-left: 10px;
+
    }
 
 /* ПОРТФОЛІО */
@@ -857,8 +883,6 @@ padding: 63px 24px;
     margin-top: 40px;
 }
     .title-modal{ 
-        /* width: 448px; */
-        /* height: 23px; */
         padding-top: 0px;
         padding-left: 40px;
         padding-right: 40px;
@@ -869,18 +893,13 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
     }
  
  .modal-input{
-   
-        width: 448px;
-        height: 40px;
-   
-    /* margin-left: 40px; */
-    /* margin-bottom: 10px; */
-    padding-left: 35px;
+     width: 448px;
+    height: 40px;
+     padding-left: 35px;
         
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -902,15 +921,17 @@ letter-spacing: 0.01em;
 color: #757575;
 }
    .user-coment-area{
+    width: 448px;
     margin-top: 5px;
    }
    .user-coment {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    width: 448px;
+       margin-top: 10px;
     margin-bottom: 4px;
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
     font-weight: 400;
     font-size: 12px;
     line-height: 1.14;
@@ -924,6 +945,7 @@ color: #757575;
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
  
   .conditions{
@@ -952,7 +974,10 @@ color: #2196F3;
     width: 18px;
     height: 18px;
     display: inline-block;
-  }
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
   
  .modal-input:focus + .icon-modal{
     fill: var(--accent-color);
@@ -968,8 +993,8 @@ color: #2196F3;
 
  } 
 
-.close:hover {
-    fill: var(--accent-color);
+.modal .close-sign:hover + .close {
+    fill: #2196F3
 }
 .check-input{
    margin: 10px;
