@@ -863,11 +863,21 @@ padding: 63px 24px;
     width: 30px;
     height: 30px;
      fill:#FFFFFF;
+     color: #000000; 
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-  
+  .modal .close-sign:hover{
+    color: var(--accent-color);
+  }
+
+.close{
+   fill: currentColor;
+}
+
+     
   .is-hidden {
     visibility: hidden;
     opacity: 0;
