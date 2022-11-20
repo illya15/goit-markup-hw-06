@@ -716,10 +716,8 @@ color: #FFFFFF;
    }
     
    .button-portfolio .list{
-    
-    text-align: center;
-      
-     border-radius: 4px;
+        text-align: center;
+          border-radius: 4px;
     margin-right: 8px; 
      /* outline: 2px solid tomato;  */
    }
@@ -791,8 +789,7 @@ color:var(--primery-text-color);
     margin-bottom: 94px;
  }
  
-    /* .link { */
-        /* text-decoration: none;  } */
+   
 .link-img .img-wraper{
     display: block;
     position: relative; 
@@ -822,7 +819,6 @@ padding: 63px 24px;
 .link-img:hover .text-discription{
     transform: translateY(0);  
 }
-
 
       .tumb-img {
         position: relative;
