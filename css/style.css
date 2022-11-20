@@ -1040,8 +1040,8 @@ color: #757575;
 .check-input input:checked + .user-agree::before{
     background-color: #2196F3;
     border: none;
-    background-image: url(/imges/Galka\ \(1\).svg);
-    /* background-repeat: no-repeat;
+    background-image: url(/imges/Galka\(1\).svg);
+     background-repeat: no-repeat;
     background-position: center;
-} */
+} 
 
