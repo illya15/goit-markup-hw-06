@@ -606,9 +606,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 /* приєднатися */
-  .addition {
+  /* .addition { */
      /* margin-right: 640px;  */
-  }
+  /* } */
 .add {
      /* margin-right: 868px;  */
     font-weight: 700;
@@ -716,15 +716,25 @@ color: #FFFFFF;
    }
     
    .button-portfolio .list{
+    
     text-align: center;
-    /* padding: 6px 22px; */ 
-    border-radius: 4px;
-    margin-right: 8px;
-    /* outline: 2px solid tomato; */
+      
+     border-radius: 4px;
+    margin-right: 8px; 
+     /* outline: 2px solid tomato;  */
+   }
+ 
+      .link-button{
+    padding: 6px 22px;
+    outline-style: none;
+    border-radius: 4px ;
+    border: transparent;
+   
+
    }
 
-.button-portfolio .link:hover,
-.button-portfolio .link:focus{
+.button-portfolio .link-button:hover,
+.button-portfolio .link-button:focus{
      cursor: pointer;
 color: #FFFFFF;
 background-color: var(--accent-color);
@@ -784,6 +794,7 @@ color:var(--primery-text-color);
     /* .link { */
         /* text-decoration: none;  } */
 .link-img .img-wraper{
+    display: block;
     position: relative; 
     overflow: hidden;
 }
@@ -1037,3 +1048,4 @@ color: #757575;
     background-repeat: no-repeat;
     background-position: center;
 }
+
